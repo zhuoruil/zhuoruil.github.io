@@ -8,7 +8,7 @@ def load_data(path):
     return pd.read_csv(path)
 
 
-file_path = "/Users/ruirui/Desktop/IEQ---RA/ATF.csv"
+file_path = "ATF.csv"
 with st.spinner(text="Loading data..."):
     df = load_data(file_path)
 
